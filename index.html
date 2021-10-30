@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quiz</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+  <script src="dashboard.js"></script>
+  <!-- Jquery connection Plugin -->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="connectionPlugins\jquery.connections.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style-inter.css">
+  <link href="../fonts/HelveticaNow/stylesheet.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--  Nav bar here-->
+  <header>
+    <a href = "index.html"><img src="https://cdn.glitch.com/b34f70e3-6c66-4d44-821c-5e0bf97f0f00%2Flogo.webp?v=1593546107927" alt="logo" class="logo"></a>
+      <div class = "containerr">
+        <nav>
+        <ul>
+          <li><a href = "index.html">Home</a></li>
+        </ul>
+        </nav>
+      </div>
+  </header>
+
+  <div class="main-content">
+  <div class="main-wrap" id="main-wrap-exp0">
+    <div class="summary-box hardware-selection">
+      <div class="box-header">
+        Study Track
+      </div>
+      <div class="scroll-area" id="exp-1">
+
+        <div class="flow-chart">
+          <div class="flow-header">
+            <p class="facility">Assessment Quiz</p>
+            <p class="test-station">Level 1</p>
+            <p class="probe">Level 2</p>
+            <p class="cmu">Graduation Quiz</p>
+          </div>
+
+          <div class="tree">
+            <div class="facility box fac-r1">
+              <div class="box-text">
+                Test your current financial literacy level
+                <input id="fac-r1-input" type="checkbox">
+              </div>
+              <a class="dropdown-arrow cmu" href="entry_test.html">
+                <svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 3l1.166-.624 8 5.333v1.248l-8 5.334-1.166-.624V3zm1.5 1.401v7.864l5.898-3.932L5.75 4.401z"/>
+                </svg>
+            </a>
+            </div>
+
+            <div class="test-station box test-r1">
+              <div class="box-text">
+                Consumer Credit 
+                <input type="checkbox" id="test-r1-input">
+              </div>
+              <a class="dropdown-arrow cmu" href="level1_consumer_credit.html">
+                <svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 3l1.166-.624 8 5.333v1.248l-8 5.334-1.166-.624V3zm1.5 1.401v7.864l5.898-3.932L5.75 4.401z"/>
+                </svg>
+            </a>
+            </div>
+
+            <div class="probe box probe-r1">
+              <div class="box-text">
+               Credit Factors
+                <input type="checkbox" type="probe" id="probe-r1-input">
+              </div>
+              <a class="dropdown-arrow cmu" href="under_dev.html">
+                <svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 3l1.166-.624 8 5.333v1.248l-8 5.334-1.166-.624V3zm1.5 1.401v7.864l5.898-3.932L5.75 4.401z"/>
+                </svg>
+            </a>
+            </div>
+
+            <!-- <div class="line" id="line-cmu"></div> -->
+            <div class="cmu box cmu-r1">
+              <div class="box-text">
+                Feedback Survey
+                <input type="checkbox" type="cmu" id="cmu-r1-input">
+              </div>
+              <a class="dropdown-arrow cmu" href="feedback.html">
+                <svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 3l1.166-.624 8 5.333v1.248l-8 5.334-1.166-.624V3zm1.5 1.401v7.864l5.898-3.932L5.75 4.401z"/>
+                </svg>
+            </a>
+            </div>
+
+          </div>
+
+          <div class="tree">
+            <div class="facility fac-r2"></div>
+
+            <!-- <div class="line"></div> -->
+
+            <div class="test-station box test-r2" >
+              <div class="box-text">
+                Knowledge on Consumer Credit
+                <input type="checkbox" id="test-r2-input">
+              </div>
+            
+              <a class="dropdown-arrow cmu" href="under_dev.html">
+                <svg width="16px" height="16px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.25 3l1.166-.624 8 5.333v1.248l-8 5.334-1.166-.624V3zm1.5 1.401v7.864l5.898-3.932L5.75 4.401z"/>
+                </svg>
+            </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="break"></div> <!-- break -->
+    
+    <div class="summary-box tags">
+      <div class="box-header">
+        Notes to self
+      </div>
+      <div class="scroll-area" id="exp-2">
+        <div class="tag-input">
+          <div class="white-input-box">
+            <div class="tag-search-container">
+              <input type="text" id="tag-txt">
+            </div>
+            <div class="tag">
+              <p>Profit is revenue minus cost</p>
+              <div class="delete-tag">X</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+</body>
+
+</html>
