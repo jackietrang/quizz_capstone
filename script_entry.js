@@ -27,80 +27,95 @@ var answer = document.getElementById("...")
 var questions = [
   {
     question:
-      "Do you know what to expect when dealing with any cryptocurrency?",
-    imgSrc:
-      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FCryptocurrency-Bitcoins.jpeg?v=1635605958402",
-    choiceA: "Yes, its value will fluctuate, but will go up in the long-run",
-
-    choiceB: "Not really",
-
-    choiceC: "Yes, its value will go up at least due to inflation",
-
-    choiceD: "Yes, it will always go up due to high demand",
-
-    correct: "C"
-  },
-  {
-    question: "Which of these is not a spending practice of financially successful people?",
-    imgSrc:
-      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FFinancial-Growth.png?v=1635606152758",
-
-    choiceA: "Focusing on the long-term",
-
-    choiceB: "Saving the money that’s left over at the end of the month",
-
-    choiceC: "Living frugally",
-
-    correct: "B"
-  },
-  {
-    question:
-      "A broker advises you to invest in ABC Corp, which she owns. Is she acting as your fiduciary?",
-    imgSrc: "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FBroker.jpeg?v=1635606221441",
-    choiceA: "Yes, because she owns the stock",
-
-    choiceB: "No, there is a conflict of interest",
-
-    choiceC: "Yes, because she is a broker",
-    choiceD: "Yes, because ABC Corp is profitable",
-
-    correct: "B"
-  },
-  {
-    question:
-      "A profit is a positive return",
+      "A profit is a positive return or money made on an investment or venture",
     imgSrc:
       "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Fprofit-20171124013205135.jpeg?v=1635606670505",
 
     choiceA: "True",
     choiceB: "False",
-  
+    choiceC: "Don't know",
+    choiceD: "Prefer not to say",
     correct: "A"
+  },
+  {
+    question:
+      "Suppose you had $100 in a savings account and the interest rate was 2% per year. After 5 years, how much do you think you would have in the account if you left the money to grow?",
+    imgSrc:
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FCryptocurrency-Bitcoins.jpeg?v=1635605958402",
+    choiceA: "More than $102",
+
+    choiceB: "Exactly $102;",
+
+    choiceC: "Less than $102",
+
+    choiceD: "Do not know",
+
+    correct: "A"
+  },
+  {
+    question: "Imagine that the interest rate on your savings account was 1% per year and inflation was 2% per year. After 1 year, with the money in this account, would you be able to buy...",
+    imgSrc:
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FFinancial-Growth.png?v=1635606152758",
+    choiceA: "More than today",
+    choiceB: "Exactly the same as today",
+    choiceC: "Less than today",
+    choiceD: "Do not know",
+    correct: "C"
+  },
+  {
+    question: "If interest rates rise, what will typically happen to bond prices?",
+    imgSrc:
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FFinancial-Growth.png?v=1635606152758",
+    choiceA: "More than today",
+    choiceB: "Exactly the same as today",
+    choiceC: "Less than today",
+    choiceD: "Do not know",
+    correct: "C"
+  },
+  {
+    question:
+      "A broker advises you to invest in ABC Corp, which she owns. Is she acting as your fiduciary?",
+    imgSrc: "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FBroker.jpeg?v=1635606221441",
+    choiceA: "They will rise",
+    choiceB: "They will stay the same",
+    choiceC: "They will fall",
+    choiceD: "There is no relationship between bond prices and the interest rate",
+    correct: "C"
   },
   {
     question:
       "Which of the following is an example of an equity calculation?",
     imgSrc:
       "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Fequity.jpeg?v=1635606799552",
-    choiceA: "($200,000 main residence) + (($100,000 main residence loan)",
-    choiceB: "($200,000 main residence) - (($100,000 saving)",
-    choiceC: "($200,000 main residence) - (($100,000 main residence loan)",
+    choiceA: "($200,000 main residence) + ($100,000 main residence loan)",
+    choiceB: "($200,000 main residence) - ($100,000 saving)",
+    choiceC: "($200,000 main residence) - ($100,000 main residence loan)",
     choiceC: "($200,000 main residence)",
     correct: "C"
   },
   {
     question:
-      "If a person dies intestate and no relatives are found, the assets go to:",
+      "A 15-year mortgage typically requires higher monthly payments than a 30-year mortgage, but the total interest paid over the life of the loan will be less.",
     imgSrc:
       "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Finherit.jpeg?v=1635606841695",
-
-    choiceA: "Charity",
-    choiceB: "The state",
-    choiceC: "A time period during which no finance charges will be added to your account",
-    choiceD: "The person’s closest friend",
-
+    choiceA: "True",
+    choiceB: "False",
+    choiceC: "Don't know",
+    choiceD: "Prefer not to say",
+    correct: "A"
+  }, 
+  {
+    question:
+      "Buying a single company’s stock usually provides a safer return than a stock mutual fund.",
+    imgSrc:
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Finherit.jpeg?v=1635606841695",
+    choiceA: "True",
+    choiceB: "False",
+    choiceC: "Don't know",
+    choiceD: "Prefer not to say",
     correct: "B"
-  }
+  }, 
+
 ];
 
 // create some variables
