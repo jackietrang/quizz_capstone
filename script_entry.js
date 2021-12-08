@@ -30,7 +30,6 @@ var questions = [
       "A profit is a positive return or money made on an investment or venture",
     imgSrc:
       "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Fprofit-20171124013205135.jpeg?v=1635606670505",
-
     choiceA: "True",
     choiceB: "False",
     choiceC: "Don't know",
@@ -41,21 +40,17 @@ var questions = [
     question:
       "Suppose you had $100 in a savings account and the interest rate was 2% per year. After 5 years, how much do you think you would have in the account if you left the money to grow?",
     imgSrc:
-      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FCryptocurrency-Bitcoins.jpeg?v=1635605958402",
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FInvestment-policy_800x450_0.jpeg?v=1638925399070",
     choiceA: "More than $102",
-
     choiceB: "Exactly $102;",
-
     choiceC: "Less than $102",
-
     choiceD: "Do not know",
-
     correct: "A"
   },
   {
     question: "Imagine that the interest rate on your savings account was 1% per year and inflation was 2% per year. After 1 year, with the money in this account, would you be able to buy...",
     imgSrc:
-      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FFinancial-Growth.png?v=1635606152758",
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Fistockphoto-1270426994-612x612.jpeg?v=1638925472455",
     choiceA: "More than today",
     choiceB: "Exactly the same as today",
     choiceC: "Less than today",
@@ -65,7 +60,7 @@ var questions = [
   {
     question: "If interest rates rise, what will typically happen to bond prices?",
     imgSrc:
-      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FFinancial-Growth.png?v=1635606152758",
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Fraiseinterest-800x600px.jpeg?v=1638925517111",
     choiceA: "More than today",
     choiceB: "Exactly the same as today",
     choiceC: "Less than today",
@@ -87,17 +82,17 @@ var questions = [
       "Which of the following is an example of an equity calculation?",
     imgSrc:
       "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Fequity.jpeg?v=1635606799552",
-    choiceA: "($200,000 main residence) + ($100,000 main residence loan)",
-    choiceB: "($200,000 main residence) - ($100,000 saving)",
-    choiceC: "($200,000 main residence) - ($100,000 main residence loan)",
-    choiceC: "($200,000 main residence)",
+    choiceA: "$200,000 main residence + $100,000 main residence loan",
+    choiceB: "$200,000 main residence - $100,000 saving",
+    choiceC: "$200,000 main residence - $100,000 main residence loan",
+    choiceC: "$200,000 main residence",
     correct: "C"
   },
   {
     question:
       "A 15-year mortgage typically requires higher monthly payments than a 30-year mortgage, but the total interest paid over the life of the loan will be less.",
     imgSrc:
-      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Finherit.jpeg?v=1635606841695",
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Funderstand-interest-rate.jpeg?v=1638925583843",
     choiceA: "True",
     choiceB: "False",
     choiceC: "Don't know",
@@ -108,7 +103,7 @@ var questions = [
     question:
       "Buying a single company’s stock usually provides a safer return than a stock mutual fund.",
     imgSrc:
-      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2Finherit.jpeg?v=1635606841695",
+      "https://cdn.glitch.me/d28052bc-296a-4014-84f9-de6bfc690091%2FStock-vs-mutual-fund.jpeg?v=1638925628869",
     choiceA: "True",
     choiceB: "False",
     choiceC: "Don't know",
@@ -233,8 +228,8 @@ function scoreRender() {
 // choose level based on price person
 let text =
     scorePerCent <= 60
-        ?  "You should start from <a href = './knowledge_flashcard/knowledge1.html'>Consumer Credit flashcards</a> to gain a stronger foundation"
-    : "You seem to have a good foundation. You can start the <a href = 'level1_consumer_credit.html'> Consumer Credit quiz</a>.";
+        ?  "There is some room for improvement. You should start from <a href = './knowledge_flashcard/knowledge1.html'>Consumer Credit flashcards</a> to gain a stronger foundation"
+    : "You seem to have a good financial literacy foundation! You can start the <a href = 'level1_consumer_credit.html'> Consumer Credit quiz</a>.";
   scoreDiv.innerHTML += "<div class='level-rec'>" + text + "</div>";
   scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
 
