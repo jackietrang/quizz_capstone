@@ -3,17 +3,13 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
     <title>Quiz</title>
-
     <link rel="stylesheet" href="style.css">
-
+    <script src="script_entry.js"></script>
 </head>
 
 <body>
-<!--  Nav bar here-->
 <header>
   <a href = "index.html"><img src="https://cdn.glitch.com/b34f70e3-6c66-4d44-821c-5e0bf97f0f00%2Flogo.webp?v=1593546107927" alt="logo" class="logo"></a>
     <div class = "containerr">
@@ -26,47 +22,28 @@
 </header>
   
     <div id="container">
-
         <div id="start">Start Assessment Quiz!</div>
-
         <div id="quiz" style="display: none">
-
             <div id="question"></div>
-
             <div id="qImg"></div>
-
             <div id="choices">
-
                 <div class="choice" id="A" onclick="checkAnswer('A')"></div>
-
                 <div class="choice" id="B" onclick="checkAnswer('B')"></div>
-
                 <div class="choice" id="C" onclick="checkAnswer('C')"></div>
-              
                 <div class="choice" id="D" onclick="checkAnswer('D')"></div>
-
             </div>
 
             <div id="timer" style="display: none">
-
                 <div id="counter"></div>
-
                 <div id="btimeGauge"></div>
-
                 <div id="timeGauge"></div>
-
             </div>
 
             <div id="progress"></div>
-
         </div>
 
         <div id="scoreContainer" style="display: none"></div>
-
     </div>
-
-    <script src="script_entry.js"></script>
-
 </body>
 
 </html>

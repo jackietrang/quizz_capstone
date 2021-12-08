@@ -61,7 +61,7 @@ $(document).bind('pageinit', function(event, ui) {
 
 $(document).delegate("#title-page", "pagecreate", function() {
   "use strict";
-  $(this).css('background', '#f0db4f');
+  $(this).css('background', 'MediumTurquoise');
   if (navigator.userAgent.match(/Android/i)) {
     window.scrollTo(0, 1);
   }
